@@ -27,5 +27,8 @@
 - (void)sayHello{
 	NSLog(@"hello");
 }
+- (void)saySeeYou{
+	NSLog(@"SeeYou");
+}
 
 @end
