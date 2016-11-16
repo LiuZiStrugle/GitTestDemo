@@ -29,9 +29,19 @@
                                     <constraint firstAttribute="width" secondItem="4q9-o5-4Yz" secondAttribute="height" multiplier="375:128" id="J4v-vr-mQY"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPn-Ef-fyO">
+                                <rect key="frame" x="0.0" y="269" width="375" height="128"/>
+                                <color key="backgroundColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dPn-Ef-fyO" secondAttribute="height" multiplier="375:128" id="75N-3x-jdI"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="dPn-Ef-fyO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6WK-py-Wf9"/>
+                            <constraint firstItem="dPn-Ef-fyO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XIf-e3-Y8e"/>
+                            <constraint firstAttribute="trailing" secondItem="dPn-Ef-fyO" secondAttribute="trailing" id="dft-ov-4qa"/>
                             <constraint firstAttribute="trailing" secondItem="4q9-o5-4Yz" secondAttribute="trailing" id="j5O-7E-9Fb"/>
                             <constraint firstItem="4q9-o5-4Yz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k1V-v8-HfV"/>
                             <constraint firstItem="4q9-o5-4Yz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="s1s-vA-e4A"/>
